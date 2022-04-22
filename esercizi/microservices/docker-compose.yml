@@ -11,10 +11,10 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 
   hextorgb:
-    image: HEX2RGB
+    image: hextorgb
     restart: "no"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.HEX2RGB.rule=PathPrefix(`/HEX2RGB`)"
-      - "traefik.http.routers.HEX2RGB.middlewares=HEX2RGB-stripprefix"
-      - "traefik.http.middlewares.HEX2RGB-stripprefix.stripprefix.prefixes=/HEX2RGB"
+      - "traefik.http.routers.hextorgb.rule=PathPrefix(`/hextorgb`)"
+      - "traefik.http.routers.hextorgb.middlewares=hextorgb-stripprefix"
+      - "traefik.http.middlewares.hextorgb-stripprefix.stripprefix.prefixes=/hextorgb"
