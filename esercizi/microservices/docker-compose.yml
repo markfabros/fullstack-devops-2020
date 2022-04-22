@@ -11,7 +11,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 
   hextorgb:
-    build: HEX2RGB
+    image: HEX2RGB
     restart: "no"
     labels:
       - "traefik.enable=true"
