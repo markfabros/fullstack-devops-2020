@@ -1,0 +1,20 @@
+version: '3'
+services:
+  reverse-proxy:
+    image: traefik
+    command: --api.insecure=true --providers.docker --providers.docker.exposedByDefault=false
+    restart: "no"
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  HEX2RGB:
+    image: hex2rgb
+    restart: "no"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.HEXtoRGB.rule=PathPrefix(`/HEXtoRGB`)"
+      - "traefik.http.routers.HEXtoRGB.middlewares=HEXtoRGB-stripprefix"
+      - "traefik.http.middlewares.HEXtoRGB-stripprefix.stripprefix.prefixes=/HEXtoRGB"

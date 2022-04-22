@@ -1,31 +1,22 @@
 <testsuites name="Mocha Tests">
-  <testsuite name="REST API test suite description" tests="9" errors="0" failures="9" skipped="0" timestamp="2022-04-15T17:32:14" time="0.06">
-    <testcase classname="REST API test suite description" name="test case description" time="0.026">
-      <failure message="expected Error: connect ECONNREFUSED 127.0.0.1:3000 { …(6) } to not exist"></failure>
+  <testsuite name="REST API test suite description" tests="9" errors="0" failures="0" skipped="0" timestamp="2022-04-21T10:09:18" time="0.077">
+    <testcase classname="REST API test suite description" name="test case description" time="0.044">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
-      <failure message="expected Error: connect ECONNREFUSED 127.0.0.1:3000 { …(6) } to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.003">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.001">
-      <failure message="expected Error: connect ECONNREFUSED 127.0.0.1:3000 { …(6) } to not exist"></failure>
-    </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.001">
-      <failure message="expected Error: connect ECONNREFUSED 127.0.0.1:3000 { …(6) } to not exist"></failure>
-    </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
-      <failure message="expected Error: connect ECONNREFUSED 127.0.0.1:3000 { …(6) } to not exist"></failure>
-    </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
-      <failure message="expected Error: connect ECONNREFUSED 127.0.0.1:3000 { …(6) } to not exist"></failure>
-    </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
-      <failure message="expected Error: connect ECONNREFUSED 127.0.0.1:3000 { …(6) } to not exist"></failure>
-    </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
-      <failure message="expected Error: connect ECONNREFUSED 127.0.0.1:3000 { …(6) } to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.003">
     </testcase>
     <testcase classname="REST API test suite description" name="test case description" time="0.004">
-      <failure message="expected Error: connect ECONNREFUSED 127.0.0.1:3000 { …(6) } to not exist"></failure>
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.004">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
     </testcase>
   </testsuite>
 </testsuites>

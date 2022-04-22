@@ -10,7 +10,7 @@
     "email": "markjasonfabros@gmail.com"
   },
   "contributors": [],
-  "main": "dist/microservice-template/src/HttpServer.js",
+  "main": "microservice-HEX2RGB/src/HttpServer.js",
   "repository": {
     "type": "git",
     "url": ""

@@ -1,7 +1,7 @@
 import chai from 'chai';
 import chaiHttp from 'chai-http';
 import * as config from '../../server-config.json'
-import { hex2rgbTestData } from './../../../commons/src/test-data/colors';
+import { hex2rgbTestData } from "../../../commons/src/test-data/colors"
 
 chai.config.includeStack = true;
 const should = chai.should();
